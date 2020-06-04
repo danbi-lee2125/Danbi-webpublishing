@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>이당비의 첫 코딩 수업</title>
+	<!-- 컨트롤 + / 주석처리 : 같이 누르면 메모를 할 수 있음
+		title 브라우저상의 이름을 알려준다.
+
+	 head 는 머리 역할을 한다.
+	 // 작성을 한다고 해서 브라우저에 바로 보이진 않는다.
+	 개발자 도구에서는 볼 수 있음.
+
+	 <> 이 안에 들어가야하고, </> 이게 끝 표시
+	 메타태그는 짝이 없음 
+
+메타태그 종류
+	 charset 언어를 말해준다 = UTF8을 쓴다는건 웬만한 국가의 언어를 다 함
+	 description = 페이지에 대한 설명
+	 
+-->  
+    <style>
+    	h1{width: 100px; height: 100px; background: red;}
+    	span{width: 100px; height: 100px; background: red;}
+    </style>
+</head>
+<body>
+
+	<!-- span태그 인라인 태그 inline 
+		글씨 자체에만 영역이 있는 경우 아무리 내가 높이값이나 너비값을 줘도 결국 글자 크기만큼만 나옴-->
+	<span>저는 이당비입니다. 지금 너무 졸려요.</span>
+	<em>이단비입니다</em>
+	<strong>당비이당비</strong>
+
+<!-- 블록태그 -->
+	<p>안녕하세요</p>
+	<!-- p태그 블록태그 blpck 
+		벽돌, 한 영역 전체 한 줄 자체를 차지함 개별 공간 노노 글자 길이 상관없음-->
+	<div>안녕하세룡옹옹</div>
+	<h1>두란노</h1> 
+	<h2>안녕하세요요오오옹</h2>
+	<h3>안녕하세요요오오옹</h3>
+	<h4>안녕하세요요오오옹</h4>
+	<h5>안녕하세요요오오옹</h5>
+	<h6>안녕하세요요오오옹</h6>
+
+    <a href="http://www.duranno.com">두란노닷컴</a>
+    <!-- a태그는 링크 다는 것, 주소 쓴 곳으로 이동 htef 는 페이지의 주소 -->
+    <img src="http://www.duranno.com/main/main_banner/images/7515.jpg" alt="배너">
+    <!-- src는 이미지의 주소 -->
+
+    <a href="http://www.duranno.com"><img src="http://www.duranno.com/main/main_banner/images/7515.jpg" alt="배너"></a>
+
+    <ul>
+    	<li>박선희</li>
+    	<li>유보미</li>
+    	<li>조수경</li>
+    	<li>이승민</li>
+    	<li>문건수</li>
+    	<li>이단비</li>
+    </ul> 
+<!-- ul 점 있는 기본 리스트형 -->
+    <ol>
+    	<li><strong>박선희</strong> : 팀장님</li>
+    	<li>유보미</li>
+    	<li>조수경</li>
+    	<li>이승민</li>
+    	<li>문건수</li>
+    	<li>이단비</li>
+    </ol>
+<!-- ol 순서가 있는 리스트형 -->
+    <dl>
+    	<dt>컨텐츠팀</dt>
+    	<dd>박선희</dd>
+    	<dd>유보미</dd>
+    	<dd>조수경</dd>
+    	<dd>이승민</dd>
+    	<dd>문건수</dd>
+    	<dd>이단비</dd>
+    </dl>
+    <!-- dl 소제목이 있는 리스트형 dt는 소제목 dd는 그 내용물 -->
+</body>
+</html>
