@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>이당비의 세번째 코딩 수업</title>
+    <meta name="description" content="오늘은 css, id, class에 대해 배웠더여">
+
+    <style>
+            dd{font-weight: normal; font-size: 16px;}
+            .prise{margin-top: 20px; font-weight: bold; font-size: 16px;}
+            h2{font-weight: bold; font-size: 40px; }
+            li{margin-top: 30px;}
+
+    </style>
+    <link rel="stylesheet" href="style.css">
+<!-- 스타일 태그로 헤드에 아예 박아버리는게 있고
+    css 파일을 따로 해서 링크태그로 연결할 수 있음  -->
+
+</head>
+
+<!-- html 은 순서대로 읽어내려간다.
+
+스타일 꽂는 방법 3가지!
+1. 링크로 css 연결
+2. 헤드에서 스타일 명시
+3. 보디에서 그냥 바로 인라인 꽂아버리는거
+
+브라우저는 맨 밑에 명시된것을 따라함! -->
+<body>
+
+<pre class="green-text">일단 아무거나 막 써야징 </pre>
+    <h3 class="green-text">MOM's TOUCH<span id="name">@momstouch_korea</span></h3>
+<p>할인 없이도 가성비 갑이었던,
+맘스터치 인기 버거세트 BIG4를<br>
+천 원 할인된 가격으로 만날 수 있는 특별한 기회!<br><br>
+
+인크레더블 버거, 언빌리버블 버거,<br>
+화이트갈릭 버거 , 딥치즈 버거 세트까지<br>
+6월 한 달간, 절대 놓치지 마세욧!</p>
+<a href="http://www.momstouch.co.kr/main/main.php?ref=https%3A%2F%2Fsearch.naver.com%2Fsearch.naver%3Fsm%3Dtop_hty%26fbm%3D1%26ie%3Dutf8%26query%3D%25EB%25A7%2598%25EC%258A%25A4%25ED%2584%25B0%25EC%25B9%2598#self">
+    <span id="hashtag">#맘스터치_첫할인</span></a>
+
+    <br>
+<!-- tr : 행
+     th : 타이틀, 제목 굵은 글씨로 나온다
+     행을 추가하고싶으면 tr 추가
+     td : 내용을 쓰는거같다 -->
+    <table>
+       <tr>
+           <th colspan="2">아이티부서</th> 
+       </tr>
+       <!-- 요거는 가로 통합 -->
+        <tr>
+            <th rowspan="6">컨텐츠팀</th>
+            <td>유보미</td>
+        </tr>
+        <!-- 요거는 세로 통합 -->
+        <tr>
+            <td>이단비</td>
+        </tr>
+        <tr>
+            <td>조수경</td>
+        </tr>
+         <tr>
+            <td>이승민</td>
+        </tr>
+         <tr>
+            <td>문건수</td>
+        </tr>
+         <tr>
+            <td>박선희</td>
+        </tr>
+
+    </table>
+
+<!--  리스트 복습 및 응용 
+ 
+ul - 점 있는 기본 리스트
+ol - 숫자로 찍히는 리스트
+
+- ul/ol 둘 다 내용은 li로 써준다.
+
+dl - 소제목이 있는 리스트
+
+- 소제목이 될 부분은 dt로 그 아래 하위 내용은 dd로 써주기 -->
+
+<h2>하나님 나라 만들기 하나만</h2>
+
+<dl>
+    <dt>그레이스벨 헬로든든 메모지 02. 오늘의 기도</dt>
+    <dd class="prise">2,000원</dd>
+    <dd>1,800원 (10% 할인)</dd>
+</dl>
+<hr>
+<ol>
+    <li>헬로든든 노트<br><br><strong>2,000원</strong><br>1,800원 (10%할인)</li>
+    <li>헬로든든 지갑<br><br><strong>2,000원</strong><br>1,800원 (10%할인)</li>
+    <li>헬로든든 부채<br><br><strong>2,000원</strong><br>1,800원 (10%할인)</li>
+    <li>헬로든든 머그<br><br><strong>2,000원</strong><br>1,800원 (10%할인)</li>
+    <li>헬로든든 거울<br><br><strong>2,000원</strong><br>1,800원 (10%할인)</li>
+</ol>
+</body>
+</html>
