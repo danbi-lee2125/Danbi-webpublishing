@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>20200609 구글 설명 카피쓰</title>
+	<meta name="오늘의 과제 구글 인스타 설명 따라해보깅">
+
+	<style>
+		h1{font-size: 30px;font-weight: normal;color: #333;}
+		div h1{margin-bottom: 60px;margin-top: 50px;}
+		h2{font-size: 20px;font-weight: normal;color: #333;}
+		div{width: 450px; height: 530px; padding: 15px; border: 1px solid #eee; border-radius: 10px; }
+		.navy{color: navy;}
+		.feedback{color: #ddd; font-size: 10px;}
+		div p{padding-top: 15px; border-top: 1px solid #eee; color: #333; font-size: 14px;}
+		table{margin-top: 10px; margin-bottom: 10px; color: #333;font-size: 14px;}
+		table tr td span{color: navy;}
+		div p.sns{margin-top: 60px; border-top: 0px;}
+		div p.sns span{margin-right: : 40px; margin-left: 40px; color: navy;}
+
+
+	</style>
+ 
+	<!-- 질문!!!!
+	1. div 자체에 패딩을 줬더니 가운데 보더 있는것도 패딩이 먹어버려서
+	   보더가 첨부터 그어져있는게 아니게 되네유 이거 어케하죵
+
+	2. 테이블에 th 왼쪽정렬 시키고 싶어욧
+
+	3. 관련검색어 목록들 .. 어케하면 저렇게 할 수 있는지?
+	   지금은 그냥 잘 모르겠어서 좌우 양쪽에 마진을 줬는데
+	   보여주신 예시처럼 왼쪽부터 붙게 하려면 어케해야할까용
+	   하지만 사실 저는 제가 만든 모냥새가 더 맘에 들어요
+
+	4. div 밖에 있는 피드백 글자를 오른쪽 정렬시키고싶어용
+
+	5. 행간 및 자간 조절에 대해    -->
+
+
+
+</head>
+<body>
+
+	<div>
+		<h1>인스타그램</h1>
+		<p>
+		   <span>인스타그램은 온라인 사진 공유 및 소셜 네트워킹 서비스이다. 사용자들은 인스타그램을 통해 사진 촬영과 동시에 다양한 디지털 효과를 적용하며 페이스북이나 트위터 등 다양한 소셜 네트워킹 서비스에 사진을 공유할 수 있다.</span> <span class="navy">위키백과</span>
+		</p>
+		<table>
+		<tr>
+			<th>출시일 :</th>
+			<td> 2010년 10월 6일</td>
+		</tr>
+		<tr>
+			<th>개발자 :</th>
+			<td> <span>케빈 시스트롬,</span> 마이크 크리거(Burdn, lnc.) </td>
+		</tr>
+		<tr>
+			<th>소유자 :</th>
+			<td> <span>페이스북</span></td>
+		</tr>
+		<tr>
+			<th>원작자 :</th>
+			<td><span>케빈 시스트롬, 마이크 크리거</span> </td>
+		</tr>
+		<tr>
+			<th>수상 후보 선정 :</th>
+			<td><span>틴 초이스 어워드 초이스 소셜 네트워크</span></td>
+		</tr>
+		<tr>
+			<th>수상 :</th>
+			<td><span>쇼티 어워즈 앱</span></td>
+		</tr>
+		</table>
+
+		<h2>관련검색어</h2>
+		<p class="sns">
+			<span>트위터</span>
+			<span>틱톡</span>
+			<span>VK</span>
+			<span>스냅챗</span>
+			<span>WhatsApp</span>
+			
+		</p>
+
+
+	</div>
+	<p class="feedback">피드백</p>
+	
+</body>
+</html>
