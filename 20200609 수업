@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>20200609 수업</title>
+	<meta name="description" content="오늘의 수업입니당">
+
+<style>
+ /* display 속성 */
+ span{background: red; display: inline-block; width: 100px; height: 100px; vertical-align: middle;}
+ p{background-color:#ddd; display: inline-block;width: 300px; height: 300px; border: 1px solid #000; border-radius: 20px; padding: 30px;}
+ h1{background-color: lime;}
+ /*같이 효과를 주고 싶으면 태그 콤마 태그 이런식으로 써서 스타일을 준다
+
+ 인라인태그 - 가로로 나열되는 스타일
+ 블록태그 - 세로로 나열되는 스타일
+ 인라인블록 - 인라인과 블록 동시에*
+
+ 색깔 지정시 헥사코드
+ 0~9 / a~f / 0123456789abcdef / 6자리로 00(R)00(G)00(B) 자리코드가 겹칠때는 3자리 축약도 가능
+ EX 000000 = 000 / FFFFFF = FFF
+
+ 보더 - 선을 그려주는 것
+ border - 박스처럼 생김
+ border top - 위에만 선 생김
+ border bottom - 아래만 생김
+ 라이트 레프트 다 똑같ㅌ 음!
+
+ border : 1px solid #000; 이 순서로 가는건 선의 굵기, 선의 종류(직선 곡선 등), 색깔 지정
+
+ 보더 모서리에 라운드 주는 법 border-radius 해서 픽셀값 정해주기
+
+ 마진은 영역 밖 공간이고 패딩은 영역 안 공간을 정해주는것임
+ 보더와 마찬가지로 위아래 좌우 따로 할 수 있음 
+   
+</style>
+</head>
+
+
+
+<body>
+
+	<div class="no1">
+	
+	<h1>이당비를 소개합니당 :3</h1>
+	<p><span class="hello">안녕하세용!!</span> 저는 세상에서
+		<span class="hobby">그림그리기</span>를 제일 좋아하고
+		<span class="special">비즈반지만들기</span>를 기깔나게 하는 사람입니당.
+	</p>
+
+    </div>
+    	<div class="no2">
+	
+	<h1>이당비를 소개합니당 :3</h1>
+	<p><span class="hello">안녕하세용!!</span> 저는 세상에서
+		<span class="hobby">그림그리기</span>를 제일 좋아하고
+		<span class="special">비즈반지만들기</span>를 기깔나게 하는 사람입니당.
+	</p>
+
+    </div>
+    	<div class="no3">
+	
+	<h1>이당비를 소개합니당 :3</h1>
+	<p><span class="hello">안녕하세용!!</span> 저는 세상에서
+		<span class="hobby">그림그리기</span>를 제일 좋아하고
+		<span class="special">비즈반지만들기</span>를 기깔나게 하는 사람입니당.
+	</p>
+
+    </div>
+
+
+</body>
+</html>
