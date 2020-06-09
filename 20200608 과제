@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>20200608 수업 과제</title>
+	<meta name="description" content="오늘의 수업 과제입니당">
+
+	<style>
+		h1{margin-top: 10px; font-size: 30px;font-weight: bold;color: blue;}
+		.hello{font-size: 50px;font-weight: normal;color: gray;}
+		.hobby{color: red;font-size: 50px;}
+		.special{font-size: 30px; color: green}
+		p{margin-top: 20px;font-size: 16px;}
+
+	</style>
+</head>
+<body>
+	<h1>이당비를 소개합니당 :3</h1>
+	<p><span class="hello">안녕하세용!!</span> 저는 세상에서 <span class="hobby">그림그리기</span>를 제일 좋아하고 <span class="special">비즈반지만들기</span>를 기깔나게 하는 사람입니당.</p>
+</body>
+</html>
