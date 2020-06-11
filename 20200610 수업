@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>20200609 구글 설명 카피쓰</title>
+	<meta name="오늘의 과제 구글 인스타 설명 따라해보깅">
+
+	<style>
+        *{margin: 0; padding: 0; box-sizing: border-box;}
+        /*css 초기화 / 브라우저에서 기본적으로 잡는 것들을 초기화 시키는 작업
+         보미언니같은 경우는 common.css를 만들어둔다.
+
+         box-sizing : border-box 로 초기화 시키는게 좋다.
+         안그러면 기본적으로 그 뭐야 컨텐츠박스를 기준으로 잡아서
+         내가 생각한거랑 다르게 결과물이 나오기 때문이다.
+
+        css 스타일은 같은 애들끼리 잘 묶어놓아야한다. 깔꼼쓰하게
+
+        선택자{속성 : 속성값;}
+
+        */
+
+
+		h1{font-size: 30px;font-weight: normal;color: #333; padding: 15px;}
+		h2{font-size: 20px;font-weight: normal;color: #333;}
+
+		.wrap h1{margin-bottom: 60px;margin-top: 50px;}
+		.wrap{width: 450px; height: 530px; border: 1px solid #eee; border-radius: 10px; }
+		.navy{color: navy;}
+		
+		
+		table{margin-top: 10px; margin-bottom: 10px; color: #333;font-size: 14px;}
+		table tr td span{color: navy;}
+		.wrap p{ font-size: 14px;}
+		.wrap p.sns{border-top: 0px;}
+		.wrap p.sns span{margin-right: : 40px; margin-left: 40px; color: navy;}
+		.inner{padding: 15px; border-top: 1px solid #eee; color: #333; }
+		.feedback{color: #ddd; font-size: 10px;}
+
+		.box{padding: 50px; background: #555; border: 5px solid #000; margin: 50px; width: 300px; letter-spacing: 0.5px; font-style:italic; text-transform: uppercase;}
+
+
+
+	</style>
+ 
+	<!-- 질문!!!!
+	1. div 자체에 패딩을 줬더니 가운데 보더 있는것도 패딩이 먹어버려서
+	   보더가 첨부터 그어져있는게 아니게 되네유 이거 어케하죵
+	   - div 자체에 패딩을 주지 말고 그 하위에다가 준다.
+	   div 안에 또 다르 ㄴdiv를 생성할 수 있는데 서로 클래스명을 다르게 해야 중복이 앙댐!
+
+	2. 테이블에 th 왼쪽정렬 시키고 싶어욧
+
+	3. 관련검색어 목록들 .. 어케하면 저렇게 할 수 있는지?
+	   지금은 그냥 잘 모르겠어서 좌우 양쪽에 마진을 줬는데
+	   보여주신 예시처럼 왼쪽부터 붙게 하려면 어케해야할까용
+	   하지만 사실 저는 제가 만든 모냥새가 더 맘에 들어요
+
+	4. div 밖에 있는 피드백 글자를 오른쪽 정렬시키고싶어용
+
+	5. 행간 및 자간 조절에 대해   
+
+	-------------------------------------------
+
+	오늘 배울 것
+	1. 패딩과 마진 차이법 익히기
+
+	- padding / 살찌우기
+	- margin / 옷입히기
+
+	2. 폰트 속성
+
+	font-weight : 두께 - nomal(400), bold(500-900), thin(100-300)_노토산스기준
+	            / 굴림은 노말과 볼드(전자책 기본값 따로 설정 안해도댐)
+	
+	font-family : 폰트이름 (명) / 'Noto-sans', sans-serif; / 먼저 노토산스를 가져오고 ,(없으면) 산세리프 갖고와
+	
+	letter-spacing : 자간 / 픽셀로 설정해준다. 보통은 늘이기보단 줄이는데 씀
+	                 -0.5픽셀이나 -1 -2까지도 줄일 수 있음 폰트 크기에 따라서
+	
+	line-height : 행간 / px, em.. 또 다른거 뭘로도 하는데 전자책에서는 em으로 마니씀
+	                   em은 비율이다. 1.2em이라고 치면 1.2배인것
+	                   폰트 사이즈도 em으로 쓰면 좋음
+	                   초기 css 초기화때 기본 폰트 사이즈를 정해두고
+	                   그 밑에 스타일에서는 em으로 써서 해준다. 
+	
+	font-style : 기울임(italic을 많이 씀)
+	
+	text-transform : 대소문자 변경 시 씀
+	                 uppercase : 대문자 /
+	                 lowercase : 소문자 /
+	                 capitalize : 띄어쓰기 앞자리만 대문자 
+	
+	text-align : 정렬
+	             center
+	             left
+	             right
+	             justify(양쪽정렬)
+
+	vertical-align : 정렬이긴한데 위 중간 아래 근데 인라인과 인라인블록에만 먹힘 
+	                 top
+	                 middle
+	                 bottom
+	                 baseline(기본줄?)
+
+	em태그 <em> 이탤릭으로 나오는데.. 영역 구분할때 쓰신다고 함!
+                              
+
+	 -->
+
+
+
+</head>
+<body>
+
+<div class="box">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque distinctio eius, blanditiis suscipit modi facilis dicta eum ex, aperiam quis ea dolorem ut obcaecati enim vero amet doloremque libero dignissimos!
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque culpa debitis veniam veritatis blanditiis, dolor, nulla facilis molestiae minus, quod reiciendis distinctio mollitia temporibus corporis ea non consequatur porro corrupti.</div>
+
+
+<!-- 	<div class="wrap">
+		<h1>인스타그램</h1>
+		<div class="inner">
+		<p>
+		   <span>인스타그램은 온라인 사진 공유 및 소셜 네트워킹 서비스이다. 사용자들은 인스타그램을 통해 사진 촬영과 동시에 다양한 디지털 효과를 적용하며 페이스북이나 트위터 등 다양한 소셜 네트워킹 서비스에 사진을 공유할 수 있다.</span> <span class="navy">위키백과</span>
+		</p>
+		<table>
+		<tr>
+			<th>출시일 :</th>
+			<td> 2010년 10월 6일</td>
+		</tr>
+		<tr>
+			<th>개발자 :</th>
+			<td> <span>케빈 시스트롬,</span> 마이크 크리거(Burdn, lnc.) </td>
+		</tr>
+		<tr>
+			<th>소유자 :</th>
+			<td> <span>페이스북</span></td>
+		</tr>
+		<tr>
+			<th>원작자 :</th>
+			<td><span>케빈 시스트롬, 마이크 크리거</span> </td>
+		</tr>
+		<tr>
+			<th>수상 후보 선정 :</th>
+			<td><span>틴 초이스 어워드 초이스 소셜 네트워크</span></td>
+		</tr>
+		<tr>
+			<th>수상 :</th>
+			<td><span>쇼티 어워즈 앱</span></td>
+		</tr>
+		</table>
+
+		<h2>관련검색어</h2>
+		<p class="sns">
+			<span>트위터</span>
+			<span>틱톡</span>
+			<span>VK</span>
+			<span>스냅챗</span>
+			<span>WhatsApp</span>
+			
+		</p>
+		</div>
+
+
+	</div>
+	<p class="feedback">피드백</p> -->
+	
+</body>
+</html>
