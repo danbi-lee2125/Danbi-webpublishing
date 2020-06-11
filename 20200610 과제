@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="손맛나는글씨 프로필이에용">
+	<title>손맛나는글씨 인스타 프로필</title>
+
+	<style>
+		*{margin :0; padding: 0; background: #fafafa; font-size: 17px;line-height : 1.5em;}
+
+		h1{display: inline; font-size: 2em; font-weight: normal; margin-right: 20px;}
+		h2{font-size: 1em; font-weight: bold;}
+		
+		img{margin-top: 35px; margin-bottom: 250px;margin-left: 70px;margin-right: 90px; border-radius: 70px;}
+		
+		div{display: inline-block; vertical-align: top; margin-top:50px; }
+
+		div p.button{display: inline-block; background-color: #0095f6; font-size: 0.9em; font-weight: bold; padding-top: 5px;padding-bottom: 5px; padding-right: 25px;padding-left: 25px; border-radius: 5px; color: #fff; text-align: center;}
+		div p.button2{display: inline-block; background-color: #0095f6; font-size: 0.9em; font-weight: bold; padding-top: 5px;padding-bottom: 5px; padding-right: 15px;padding-left: 15px; border-radius: 5px; color: #fff; text-align: center; }
+		div p.button3{display: inline-block; font-size: 2em; font-weight: bold; padding-top: 15px; padding-right: 10px;padding-left: 10px; color: #444; text-align: center;}
+		
+		div p.information{display: inline-block; margin-top: 20px; margin-bottom: 20px;}
+		div p.information span{font-weight: bold; margin-right: 50px;}
+		div p span{display: inline-block; font-weight: bold;}
+		div p.follower{margin-top: 20px; font-size: 0.8em; color: #666; font-weight: 100;}
+		div p.follower span{font-size: 0.8em; font-weight: bold;}
+
+
+	</style>
+	     <!-- 질문 
+
+	     1. 폰트 자체? 글자 자체에 있는 공간 때문에
+	        모양이나 위치가 좀 애매하다.
+	        이거를 없애거나 하는 방법이 있나용?
+
+	     2. 이미지를 얼추 얹어보기는 했는데 보더는 보류했어영
+	        border: 1px solid #eee; 에서 solid가 직선이라고 하셨어성
+	        이미지는 원이니까 solid대신 다른게 쓰일거같아서유 -->
+</head>
+<body>
+
+	<img src="https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/s150x150/91912243_218778435860705_1323114248045330432_n.jpg?_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ohc=sktkC-hoUdgAX8SOZzf&oh=0a3524b94bed5f2f86b96d4615857bd3&oe=5F09C720" alt="프로필">
+	
+	<div>
+		<h1>sonmat.calli</h1>
+		<p class="button">팔로우</p> <p class="button2">▼</p> <p class="button3">…</p>
+		<br>
+		<p class="information">게시물 <span>654</span> </p>
+		<p class="information">팔로워 <span>11.8천</span> </p>
+		<p class="information">팔로잉 <span>745</span> </p>
+		<br>
+		<p><span>손맛나는글씨_단비</span></p>
+		<p>여러가지 묵상을 올리지만,<br>
+		특히 관계에 대한 고민 속에서 이루어지는<br>
+	    묵상을 많이 하는 굴파기 전문가입니다.<br>
+	    관계에 고민이 있으신 분들이 있다면<br>
+	    함께 나눠도 좋을거같아요.<br>
+	    (DM혹은 카카오톡 _ ID : rhddhel)<br>
+	    .<br>
+	    그림묵상 사용 및 일러스트 의뢰도 ↑↑</p>
+	    <p class="follower"><span>ecleesia</span>님과 <span>bongchi_calli</span>님이 팔로우합니다.</p>
+
+	</div>
+	
+</body>
+</html>
