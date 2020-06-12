@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="손맛나는글씨 프로필이에용">
+	<title>손맛나는글씨 인스타 프로필</title>
+
+	<style>
+		*{margin : 0 auto; padding: 0; background: #fafafa; font-size: 17px;line-height : 1.5em; }
+
+		body{width: 935px;}
+
+		h1{display: inline; font-size: 2em; font-weight: normal; margin-right: 20px; vertical-align: middle;}
+		h2{font-size: 1em; font-weight: bold;}
+		
+		img.profile{margin-top: 35px; margin-bottom: 250px; margin-left: 70px;margin-right: 90px; border-radius: 50%; border: 1px solid #999;}
+		
+		div.profile{display: inline-block; vertical-align: top; margin-top:50px; }
+
+		div p.button{display: inline-block; background-color: #0095f6; font-size: 0.9em; font-weight: bold; padding-top: 5px;padding-bottom: 5px; padding-right: 25px;padding-left: 25px; border-radius: 5px; color: #fff; text-align: center; vertical-align: middle}
+		div p.button2{display: inline-block; background-color: #0095f6; font-size: 0.9em; font-weight: bold; padding-top: 5px;padding-bottom: 5px; padding-right: 15px;padding-left: 15px; border-radius: 5px; color: #fff; text-align: center; vertical-align: middle }
+		div p.button3{display: inline-block; font-size: 2em; font-weight: bold; padding-top: 15px; padding-right: 10px;padding-left: 10px; color: #444; text-align: center; }
+		
+		div p.information{display: inline-block; margin-top: 20px; margin-bottom: 20px;}
+		div p.information span{font-weight: bold; margin-right: 50px;}
+		
+		div p span{display: inline-block; font-weight: bold;}
+		
+		div p.follower{margin-top: 20px; font-size: 0.8em; color: #666; font-weight: 100;}
+		div p.follower span{font-size: 0.8em; font-weight: bold;}
+
+	    div.story{display: block; padding: 10px; margin-top: 30px;}
+        div.story p{display:inline-block; width: 87px; padding: 15px;}
+        div.stoty p img{border: 1px double #555; border-radius: 50%;}
+        div.story p span{margin-top: 20px; font-size: 0.8em; font-weight: bold;}
+        /*스토리는 해보려다가 실패.. 왜 안먹는지 모르겠음... 일단 대충 비슷하게 해봤어유*/
+		
+		hr{margin-top: 30px; width: 100%; height: 1px; border : none; background-color: #ccc;}
+
+		p.feed{display: flex; justify-content :center; width: 100%;}
+		p.feed span{margin-top: 15px; margin-bottom: 15px; margin-left: 40px; margin-right: 40px; font-weight: bold; font-size: 0.8em;}
+
+		div.feed{width: 935px;}
+		div.feed p{display: flex; margin : 0 auto; margin-bottom: 20px;}
+		div.feed p img{display: inline; justify-content: space-around;}
+
+	 
+
+
+
+
+	</style>
+	
+
+
+</head>
+<body>
+
+	
+    <img src="https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/s150x150/91912243_218778435860705_1323114248045330432_n.jpg?_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ohc=sktkC-hoUdgAX8SOZzf&oh=0a3524b94bed5f2f86b96d4615857bd3&oe=5F09C720" alt="프로필" class="profile">
+	
+	<div class="profile">
+
+		<h1>sonmat.calli</h1>
+		
+		<p class="button">팔로우</p> <p class="button2">▼</p> <p class="button3">…</p>
+		<br>
+		<p class="information">게시물 <span>654</span> </p>
+		<p class="information">팔로워 <span>11.8천</span> </p>
+		<p class="information">팔로잉 <span>745</span> </p>
+		<br>
+		<p><span>손맛나는글씨_단비</span></p>
+		<p>여러가지 묵상을 올리지만,<br>
+		특히 관계에 대한 고민 속에서 이루어지는<br>
+	    묵상을 많이 하는 굴파기 전문가입니다.<br>
+	    관계에 고민이 있으신 분들이 있다면<br>
+	    함께 나눠도 좋을거같아요.<br>
+	    (DM혹은 카카오톡 _ ID : rhddhel)<br>
+	    .<br>
+	    그림묵상 사용 및 일러스트 의뢰도 ↑↑</p>
+
+	    <p class="follower"><span>ecleesia</span>님과 <span>bongchi_calli</span>님이 팔로우합니다.</p>
+
+	</div>
+		
+	
+
+	<div class="story">
+		<p>
+			<img src="img/story (1).png" alt="스토리">
+            <span>스토리 1</span> 
+        </p>
+        <p>
+			<img src="img/story (2).png" alt="스토리">
+            <span>스토리 2</span> 
+        </p>
+        <p>
+			<img src="img/story (3).png" alt="스토리">
+            <span>스토리 3</span> 
+        </p>
+	</div>
+
+	<hr>
+
+	<p class="feed">
+		<span>게시물</span>
+		<span>IGTV</span>
+		<span>저장됨</span>
+		<span>태그됨</span>
+	</p>
+
+	<div class="feed">
+	  <p>
+	  	<img src="img/img20201.jpg" alt="피드">
+		<img src="img/img20202.jpg" alt="피드">
+		<img src="img/img20203.jpg" alt="피드"></p>
+		
+	  <p>
+	  	<img src="img/img20204.jpg" alt="피드">
+		<img src="img/img20205.jpg" alt="피드">
+		<img src="img/img20206.jpg" alt="피드"></p>	
+		
+	  <p>
+	  	<img src="img/img20207.jpg" alt="피드">
+		<img src="img/img20208.jpg" alt="피드">
+		<img src="img/img20209.jpg" alt="피드"></p>	
+		
+	</div>
+</body>
+</html>
