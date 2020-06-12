@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>20200609 구글 설명 카피쓰</title>
+	<meta name="오늘의 과제 구글 인스타 설명 따라해보깅">
+
+	<style>
+        *{margin: 0; padding: 0; box-sizing: border-box;}
+        /*css 초기화 / 브라우저에서 기본적으로 잡는 것들을 초기화 시키는 작업
+         보미언니같은 경우는 common.css를 만들어둔다.
+
+         box-sizing : border-box 로 초기화 시키는게 좋다.
+         안그러면 기본적으로 그 뭐야 컨텐츠박스를 기준으로 잡아서
+         내가 생각한거랑 다르게 결과물이 나오기 때문이다.
+
+        css 스타일은 같은 애들끼리 잘 묶어놓아야한다. 깔꼼쓰하게
+
+        선택자{속성 : 속성값;}
+
+        */
+
+
+		h1{font-size: 30px;font-weight: normal;color: #333; padding: 15px;}
+		h2{font-size: 20px;font-weight: normal;color: #333;}
+
+		.wrap h1{margin-bottom: 60px;margin-top: 50px;}
+		.wrap{width: 450px; border: 1px solid #eee; border-radius: 10px; }
+		.navy{color: navy;}
+		
+		
+		table{margin-top: 10px; margin-bottom: 10px; color: #333;font-size: 14px;}
+		table tr td span{color: navy;}
+		.wrap p{ font-size: 14px;}
+		.wrap p.sns{border-top: 0px;}
+		.wrap p.sns span{margin-right: : 40px; margin-left: 40px; color: navy;}
+		.inner{padding: 15px; border-top: 1px solid #eee; color: #333; }
+		.feedback{color: #ddd; font-size: 10px;}
+ 
+        .header{display: flex; justify-content: space-between; align-items: center;}
+
+        .sns{display: flex; justify-content: space-around; align-items: flex-end;}
+        .sns p{display: block;}
+        .sns p span{display: block;}
+        .sns p img{display: block;}
+
+        .sns p:nth-child(2) img{margin-bottom: 20px;}
+
+        
+
+        /* 내가 정렬하려고 하는 것의 부모에게 flex를 준다.
+        
+        display : flex;를 했을 때만 쓸 수 있다.
+       
+        justify-content (가로정렬)
+        
+        - space-between : 양쪽 정렬;
+        - space-around : 적당한 정렬;
+        - center : 가운데 정렬;
+        - flex-start : 왼쪽 정렬;
+        - flex-ene : 오른쪽 정렬;
+        
+        align-items (세로정렬)
+        
+        - flex-start
+        - flex-end
+        - center
+
+
+
+	</style>
+
+
+
+
+</head>
+<body>
+
+	<div class="wrap">
+		<div class="header">
+			<h1>인스타그램</h1>
+		    <img src="img/img1.png" alt="">
+		</div>
+		<!-- 
+			 html을 기준으로 경로를 잡는게 상대경로
+
+		     img src="img(html이 저장되어있는 폴더 안에있는 다른폴더)/img1.png
+		     img src="..img(html이 저장되어있는 폴더의 상위폴더 안에 있는 다른 폴더)/img1.png"
+
+		     절대 경로는 드라이브에서부터 잡는 주소인데 거의 안쓴다.
+		     " -->
+		<div class="inner">
+		<p>
+		   <span>인스타그램은 온라인 사진 공유 및 소셜 네트워킹 서비스이다. 사용자들은 인스타그램을 통해 사진 촬영과 동시에 다양한 디지털 효과를 적용하며 페이스북이나 트위터 등 다양한 소셜 네트워킹 서비스에 사진을 공유할 수 있다.</span> <span class="navy">위키백과</span>
+		</p>
+		<table>
+		<tr>
+			<th>출시일 :</th>
+			<td> 2010년 10월 6일</td>
+		</tr>
+		<tr>
+			<th>개발자 :</th>
+			<td> <span>케빈 시스트롬,</span> 마이크 크리거(Burdn, lnc.) </td>
+		</tr>
+		<tr>
+			<th>소유자 :</th>
+			<td> <span>페이스북</span></td>
+		</tr>
+		<tr>
+			<th>원작자 :</th>
+			<td><span>케빈 시스트롬, 마이크 크리거</span> </td>
+		</tr>
+		<tr>
+			<th>수상 후보 선정 :</th>
+			<td><span>틴 초이스 어워드 초이스 소셜 네트워크</span></td>
+		</tr>
+		<tr>
+			<th>수상 :</th>
+			<td><span>쇼티 어워즈 앱</span></td>
+		</tr>
+		</table>
+
+		<h2>관련검색어</h2>
+		
+		<div class="sns">
+		  <p>
+		    <img src="img/img2.jpg" alt="">
+			<span>트위터</span></p>
+			
+		  <p>
+		  	<img src="img/img3.png" alt="">
+			<span>틱톡</span></p>
+			
+          <p>
+          	<img src="img/img4.png" alt="">
+			<span>VK</span></p>
+			
+		  <p>
+		  	<img src="img/img5.png" alt="">
+			<span>스냅챗</span></p>
+			
+		  <p>
+		  	<img src="img/img6.png" alt="">
+			<span>WhatsApp</span>
+
+		</div>>
+			
+			
+			
+		</p>
+		</div>
+
+
+	</div>
+	<p class="feedback">피드백</p>
+	
+</body>
+</html>
