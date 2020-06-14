@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>그레이스벨 하나만</title>
+
+	<style>
+		*{margin:0 auto; padding: 0; background: #fff; font-size: 17px; line-height: 1.1em;}
+		/*html의 기본 설정을 해주는 것, 마진 오토를 해놓으면 자동으로 가운데로 모인다*/
+
+		body{width: 1260px;}
+		h1{width: 100%; font-size: 2.4em; font-weight: normal; text-align: center; padding-top: 50px; padding-bottom: 50px;}
+
+        div{display: inline-flex; width: 1280px; margin-right: 10px; margin-left: 10px;}
+
+		div div.goods{display: inline-block; width: 300px;margin-bottom: 50px;}
+		div div.goods a img{width: 300px; height: 302px; background: #ddd;}
+		div div.goods p.information{font-size: 0.7em; padding-top: 10px; padding-bottom: 10px; border-bottom: 1px solid #ddd; margin-bottom: 10px;}
+		div div.goods span.prise{display: block; font-weight: bold; font-size: 0.7em;}
+		div div.goods span.seal{font-size: 0.7em;}
+
+
+
+	</style>
+</head>
+<body>
+	<h1>하나님 나라 만들기 "하나만"</h1>
+
+	<div>
+		
+		<div class="goods">
+			<a href="https://gracebell.co.kr/product/%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%8A%A4%EB%B2%A8-%ED%97%AC%EB%A1%9C%EB%93%A0%EB%93%A0-%EB%A9%94%EB%AA%A8%EC%A7%80-02%EC%98%A4%EB%8A%98%EC%9D%98%EA%B8%B0%EB%8F%84/2534/category/1/display/2/"><img src="https://gracebell.co.kr/web/product/medium/20191218/a0246b7cbe003b8442416554e7938d16.jpg" alt="그레이스벨 헬로든든 메모지 02.오늘의기도"></a>
+			<p class="information">그레이스벨 헬로드든 메모지 02. 오늘의기도</p>
+			<span class="prise">2,000원</span>
+		</div>
+
+		<div class="goods">
+			<a href="https://gracebell.co.kr/product/%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%8A%A4%EB%B2%A8-%ED%97%AC%EB%A1%9C%EB%93%A0%EB%93%A0-%EB%A9%94%EB%AA%A8%EC%A7%80-05%EB%A7%90%EC%94%80%ED%95%9C%EA%B5%AC%EC%A0%88/2531/category/1/display/2/"><img src="https://gracebell.co.kr/web/product/medium/20191218/7811dccc0a5d90696ce14fc522ed131d.jpg" alt="그레이스벨 헬로든든 메모지 02.오늘의기도"></a>
+			<p class="information">그레이스벨 헬로든든 메모지 05.말씀한구절</p>
+			<span class="prise">2,000원</span>
+		</div>
+		
+		<div class="goods">
+			<a href="https://gracebell.co.kr/product/%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%8A%A4%EB%B2%A8-%ED%97%AC%EB%A1%9C%EB%93%A0%EB%93%A0-%EB%82%A0%EA%B0%9C-%EB%85%B8%ED%8A%B8-02%EA%B8%B0%EB%8F%84%EB%85%B8%ED%8A%B8/2507/category/1/display/2/"><img src="https://gracebell.co.kr/web/product/medium/201911/5e1a0953694d46512f78b3534fd3e95e.jpg" alt="그레이스벨 헬로든든 메모지 02.오늘의기도"></a>
+			<p class="information">그레이스벨 헬로든든 날개 노트 02.기도노트</p>
+			<span class="prise">1,800원</span>
+		</div>
+		<div class="goods">
+			<a href="https://gracebell.co.kr/product/%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%8A%A4%EB%B2%A8-%ED%94%8C%EB%9D%BC%EC%9B%8C-%EC%8B%AC%ED%94%8C-%EB%9D%BC%EC%9D%B8-%EB%85%B8%ED%8A%B8-02%EA%B8%B0%EB%8F%84%EB%85%B8%ED%8A%B8/2434/category/1/display/2/"><img src="https://gracebell.co.kr/web/product/medium/201909/30c4fc53760bc65de4b9147b148504c0.jpg" alt="그레이스벨 헬로든든 메모지 02.오늘의기도"></a>
+			<p class="information">그레이스벨 플라워 심플 라인 노트 02.기도노트</p>
+			<span class="prise">2,000원</span>
+		</div>
+	</div>
+
+	<div>
+		
+		<div class="goods">
+			<a href="https://gracebell.co.kr/product/%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%8A%A4%EB%B2%A8-%ED%97%AC%EB%A1%9C%EB%93%A0%EB%93%A0-%EC%86%8C%ED%94%84%ED%8A%B8%EB%B3%BC%ED%8E%9C-09%EC%97%B0%EA%B7%B8%EB%A0%88%EC%9D%B4/2312/category/1/display/2/"><img src="https://gracebell.co.kr/web/product/medium/201907/36f8b5cbc24bea04b2dc7792115a8919.jpg" alt="그레이스벨 헬로든든 메모지 02.오늘의기도"></a>
+			<p class="information">그레이스벨 헬로든든 소프트볼펜 09.연그레이</p>
+			<span class="prise">1,600원</span>
+		</div>
+
+		<div class="goods">
+			<a href="https://gracebell.co.kr/product/%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%8A%A4%EB%B2%A8-%ED%94%8C%EB%9D%BC%EC%9B%8C-%EC%97%90%EC%BD%94%EB%B0%B1-06%EA%B7%B8%EB%A6%B0/1996/category/1/display/2/"><img src="https://gracebell.co.kr/web/product/medium/201808/1efd44b409f5117c75e97755032daabe.jpg" alt="그레이스벨 헬로든든 메모지 02.오늘의기도"></a>
+			<p class="information">그레이스벨 플라워 에코백 06.그린</p>
+			<span class="prise">19,800원</span>
+			<span class="seal">17,820원 (10% 할인)</span> 
+		</div>
+		
+		<div class="goods">
+			<a href="https://gracebell.co.kr/product/%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%8A%A4%EB%B2%A8-%ED%97%AC%EB%A1%9C%EC%A0%9C%EC%9D%B8-%EB%8D%B0%EC%9D%BC%EB%A6%AC-%ED%8C%8C%EC%9A%B0%EC%B9%98-s-02%EC%B9%98%EC%B9%98/1837/category/1/display/2/"><img src="https://gracebell.co.kr/web/product/medium/201806/1837_shop1_15300028163688.jpg" alt="그레이스벨 헬로든든 메모지 02.오늘의기도"></a>
+			<p class="information">그레이스벨 헬로제인 데일리 파우치 S 02.치치</p>
+			<span class="prise">2,800원</span>
+		</div>
+		<div class="goods">
+			<a href="https://gracebell.co.kr/product/%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%8A%A4%EB%B2%A8-%ED%97%AC%EB%A1%9C%EC%A0%9C%EC%9D%B8-%EB%8D%B0%EC%9D%BC%EB%A6%AC-%ED%8C%8C%EC%9A%B0%EC%B9%98-m-03%EB%B8%94%EB%A0%88%EC%8B%B1/1833/category/1/display/2/"><img src="https://gracebell.co.kr/web/product/medium/201806/1833_shop1_1530002551577.jpg" alt="그레이스벨 헬로든든 메모지 02.오늘의기도"></a>
+			<p class="information">그레이스벨 헬로제인 데일리 파우치 M 03.블레싱</p>
+			<span class="prise">3,200원</span>
+		</div>
+	</div>
+
+	<div>
+		
+		<div class="goods">
+			<a href="https://gracebell.co.kr/product/%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%8A%A4%EB%B2%A8-%ED%97%AC%EB%A1%9C%EC%A0%9C%EC%9D%B8-%EB%8D%B0%EC%9D%BC%EB%A6%AC-%ED%8C%8C%EC%9A%B0%EC%B9%98-l-01%EC%A0%9C%EC%9D%B8/1832/category/1/display/2/"><img src="https://gracebell.co.kr/web/product/medium/201806/1832_shop1_15300024638136.jpg" alt="그레이스벨 헬로든든 메모지 02.오늘의기도"></a>
+			<p class="information">그레이스벨 헬로제인 데일리 파우치 L 01.제인</p>
+			<span class="prise">3,600원</span>
+		</div>
+
+		<div class="goods">
+			<a href="https://gracebell.co.kr/product/%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%8A%A4%EB%B2%A8-%ED%94%8C%EB%9D%BC%EC%9B%8C-%EA%B0%80%EB%93%A0%EB%B3%BC%ED%8E%9C-04%EB%B3%B4%EB%9D%BC%EB%B9%9B/1435/category/1/display/2/"><img src="https://gracebell.co.kr/web/product/medium/201708/1435_shop1_856260.jpg" alt="그레이스벨 헬로든든 메모지 02.오늘의기도"></a>
+			<p class="information">그레이스벨 플라워 가든볼펜 04.보라빛</p>
+			<span class="prise">1,600원</span>
+		</div>
+		
+		<div class="goods">
+			<a href="https://gracebell.co.kr/product/%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%8A%A4%EB%B2%A8-%ED%97%AC%EB%A1%9C%EB%93%A0%EB%93%A0-%ED%8C%8C%EC%9A%B0%EC%B9%98-xs%EC%82%AC%EC%9D%B4%EC%A6%88%EB%AA%A9%EA%B1%B8%EC%9D%B4%ED%98%95-04%ED%8C%8C%EC%9D%B8%EC%95%A0%ED%94%8C/1363/category/1/display/2/"><img src="https://gracebell.co.kr/web/product/medium/201704/1363_shop1_544973.jpg" alt="그레이스벨 헬로든든 메모지 02.오늘의기도"></a>
+			<p class="information">그레이스벨 헬로든든 파우치 XS사이즈(목걸이형) 04.파인애플</p>
+			<span class="prise">1,600원</span>
+		</div>
+		<div class="goods">
+			<a href="https://gracebell.co.kr/product/%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%8A%A4%EB%B2%A8-%ED%97%AC%EB%A1%9C%EB%93%A0%EB%93%A0-%ED%8C%8C%EC%9A%B0%EC%B9%98-xs%EC%82%AC%EC%9D%B4%EC%A6%88-02%EC%95%88%EB%86%8D%EB%93%A0%EB%93%A0/1359/category/1/display/2/"><img src="https://gracebell.co.kr/web/product/medium/201704/1359_shop1_273821.jpg" alt="그레이스벨 헬로든든 메모지 02.오늘의기도"></a>
+			<p class="information">그레이스벨 헬로든든 파우치 XS사이즈 02.안농든든</p>
+			<span class="prise">1,200원</span>
+		</div>
+	</div>
+
+
+</body>
+</html>
